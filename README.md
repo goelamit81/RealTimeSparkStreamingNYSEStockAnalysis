@@ -4,9 +4,9 @@ Once the NYSE opens, a script should run to fetch the data relating to the stock
 
 Fetch data every minute relating to the following four stocks:
 
-Facebook (FB)
-Google (GOOGL)
-Microsoft (MSFT)
+Facebook (FB),
+Google (GOOGL),
+Microsoft (MSFT),
 Adobe (ADBE)
 
 It can be achieved by using the python script that hits the intraday API for each stock every minute. We will provide you with a python script and the steps to run in the resources section ahead. On hitting the API for each stock every minute, the script will get the response corresponding to each stock every minute. From the response received, it will extract the latest minute data and will dump that data for each stock every minute in a new file inside a folder. 
