@@ -1,4 +1,4 @@
-# RealTimeSparkStreamingStockAnalysis
+# RealTimeSparkStreamingNYSEStockAnalysis
 
 Once the NYSE opens, a script should run to fetch the data relating to the stocks every minute inside a folder. The script will make use of the API provided by Alpha Vantage as described above. In parallel, a Spark application should run to stream data from the folder every minute and then perform the analyses on the data. The results of the analyses should be written in an output file. These results will act as insights to make informed decisions related to the stocks.
 
