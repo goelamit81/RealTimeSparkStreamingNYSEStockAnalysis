@@ -22,19 +22,8 @@ Using Spark Streaming, perform the following analyses:
 
 3. Find out the Relative Strength Index or RSI of the four stocks in a 1-minute sliding window for the last 10 minutes. RSI is considered overbought when above 70 and oversold when below 30. 
 
-To simplify the calculation explanation, RSI has been broken down into its basic components: RS, Average Gain and Average Loss. This RSI calculation is based on 14 periods, which is the default suggested by Wilder in his book. Losses are expressed as positive values, not negative values.
-
-The very first calculations for average gain and average loss are simple 14-period averages.
-
-The second, and subsequent, calculations are based on the prior averages and the current gain loss
-
-
-Taking the prior value plus the current value is a smoothing technique similar to that used in calculating an exponential moving average. Here, in our case, we will use 10-period averages
-
 4. Calculate the trading volume of the four stocks every 10 minutes and decide which stock to purchase out of the four stocks. Volume plays a very important role in technical analysis as it helps us to confirm trends and patterns. You can think of volumes as a means to gain insights into how other participants perceive the market. Volumes are an indicator of how many stocks are bought and sold over a given period of time. Higher the volume, more likely the stock will be bought
 
-Build the Spark application using Maven
-Generate a fat jar as required corresponding to the Spark application code to generate DStreams and perform the analyses
-Run the python script and the Spark application fat jar and store the results of the analyses in the output file/s and take the screenshots of the console output for at least 30 minutes
+Build the Spark application using Maven. Generate a fat jar as required corresponding to the Spark application code to generate DStreams and perform the analyses. Run the python script and the Spark application fat jar and store the results of the analyses in the output file/s and take the screenshots of the console output for at least 30 minutes.
 
 Write the logic in simple words for the Spark Application code developed and how to run it and the fat jar in a document.
